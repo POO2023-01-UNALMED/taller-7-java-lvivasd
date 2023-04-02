@@ -19,7 +19,7 @@ public class Alfabeto extends Pictograma {
 		for (int i = 0; i < letras.length - 1; i++) {
 			cadena += letras[i] + ",";
 		}
-		cadena += letras[-1];
+		cadena += letras[letras.length - 1];
 		return cadena;
 	}
 	
